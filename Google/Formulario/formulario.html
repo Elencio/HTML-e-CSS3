@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario de Perguntas </title>
+</head>
+<link rel="stylesheet" href="./styles1.css">
+
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        
+        <h1 class="cabecalho">
+            Formulário com Assinatura Digital
+        </h1>
+
+        <p>
+            Por favor, escolha o tratamento médico adequado e nos dê o seu consentimento
+            fornecendo sua assinatura digital na caixa abaixo. Se você não é capaz de
+            consetir para a assistência médica, por favor, nomeie o seu guardião legal
+            que irá assinar digitalmente por você. Apenas tratamentos com assinatura
+            digital permanecem válidos
+        </p>
+        <hr>
+        <b><label for="name">Foto do Paciente:</label></b>
+        <input type="file" id="file" nome="file" required accept=".png, .jpg, image/*"><br>
+        <p>
+            <b><label for="nome">Nome do Paciente:</label></b>
+            <input type="text" id="nome" name="nome" placeholder="Primeiro nome do Paciente" required><br>
+            <input type="text" id="nome" name="nome" placeholder="Segundo nome do Paciente" required><br>
+            <label for="Data_de_hoje">Data de Hoje:</label>
+            <input type="date" id="Data_de_hoje" name="Data_de_hoje"><br>
+        <p>
+            <b>Genero:<br></b>
+            <label for="Femenino">Femenino</label>
+            <input type="radio" id="Femenino" name="Genero" value="Femenino"><br>
+            <label for="Masculino">Masculino</label>
+            <input type="radio" id="Masculino" name="Genero" value="Masculino"><br>
+            <label for="LGBTQ+">LGBTQ+</label>
+            <input type="radio" id="LGBTQ+" name="Genero" value="LGBTQ+"><br>
+        </p>
+
+        <b><label for="nome">Telefone:</label></b>
+        <input type="tel" id="tel" name="tel" placeholder="(+55) 85 xxxx-xxxx" required><br>
+        <label for="name">Data de Nascimento:</label>
+        <input type="date" id="nome" nome="nome" required><br>
+        <p>
+            <b>Estado Civil: <br></b>
+            <label for="Solteiro">Solteiro</label>
+            <input type="radio" id="Solteiro" name="Estado_Civil" value="Solteiro"><br>
+            <label for="Casado">Casado</label>
+            <input type="radio" id="Casado" name="Estado_Civil" value="Casado"><br>
+            <label for="Divorciado">Divorciado</label>
+            <input type="radio" id="Divorciado" name="Estado_Civil" value="Divorciado"><br>
+            <label for="Viuvo">Viuvo</label>
+            <input type="radio" id="Viuvo" name="Estado_Civil" value="Viuvo"><br>
+        </p>
+        <p>
+        <b><label for="nome">Endereco do Paciente:</label><br></b>
+        <input type="text" id="nome" nome="nome" placeholder="Numero da Rua"><br>
+        <input type="text" id="nome" nome="nome" placeholder="cidade">
+        <input type="text" id="nome" nome="nome" placeholder="Postal/Zip code"><br>
+        <input type="text" id="nome" nome="nome" placeholder="Pais">
+        </p>
+        <b><label for="nome"> Nome do Seguro:</label></b>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <p>
+           <b> Historico Medico:<br></b>
+
+            <label for="Anemia">Anemia</label>
+            <input type="checkbox" id="Anemia" name="Historico_Medico" value="Anemia"><br>
+            <label for="Asma">Asma</label>
+            <input type="checkbox" id="Asma" name="Historico_Medico" value="Asma"><br>
+            <label for="Catapora">Catapora</label>
+            <input type="checkbox" id="Catapora" name="Historico_Medico" value="Catapora"><br>
+            <label for="Diabetes">Diabetes</label>
+            <input type="checkbox" id="Diabetes" name="Historico_Medico" value="Diabetes"><br>
+            <label for="Pneumonia">Pneumonia</label>
+            <input type="checkbox" id="Pneumonia" name="Historico_Medico" value="Pneumonia"><br>
+            <label for="Doenca de tiroide">Doenca de tiroide</label>
+            <input type="checkbox" id="Doenca_de_tiroide" name="Historico_Medico" value="Doenca_de_tiroide"><br>
+            <label for="Ulcera">Ulcera</label>
+            <input type="checkbox" id="Ulcera" name="Historico_Medico" value="Ulcera"><br>
+            <label for="Outro">Outro:</label>
+            <input type="checkbox" id="Outro" name="Historico_Medico" value="Outro"><br>
+        </p>
+
+        <p>
+
+           <b> <label for="name">Municipio do Paciente: </label><br></b>
+            <select id="select" name="select">
+                <option value="Municipio 1" label="Kamubukwana">
+                <option value="Municipio 2" label="Kamupfumo">
+                <option value="Municipio 3" label="Kamaxaquene">
+                <option value="Municipio 4" label="Kamamavota">
+            </select>
+        </p>
+        <p>
+            <b><label for="textarea">Descreve a sua situacao actual </label><br></b>
+            <textarea name="textarea" id = textarea rows="5">
+            </textarea>
+
+        </p>
+            <b><label for="name">Email do Paciente: </label><br></b>
+            <input type="email" id="email" name="email" placeholder="ex.: email@gmail.com"><br>
+
+            <p>
+                <br>
+                <button type="submit">Submeter</button>
+                <button type="reset">reset</button>
+            </p>
+
+
+        </p>
+        
+    </form>
+</body>
+
+</html>

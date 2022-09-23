@@ -1,0 +1,108 @@
+a {
+    text-decoration: none;
+  }
+
+  /* unvisited link */
+  a:link {
+    color: white;
+  }
+
+  /* visited link */
+  a:visited {
+    color: red;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: blue;
+  }
+
+  /* selected link */
+  a:active {
+    color: red;
+  }
+
+  p {
+    background-color: white;
+
+  }
+
+  #Cabecalho-tres {
+    background-color: yellow;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    background: black;
+    text-transform: uppercase;
+    padding: 20px;
+  }
+
+  h2 {
+    display: flex;
+  }
+
+  .zenitsu {
+    width: 30%;
+    height: 30%;
+  }
+
+  .inosuke {
+    width: 35%;
+    height: 35%;
+  }
+
+  .nezuko {
+    width: 35%;
+    height: 35%;
+  }
+
+  .container-zenitsu {
+    width: 50%;
+    height: 600px;
+    background-color: black;
+    opacity: 1;
+    float: left;
+  }
+
+  .container-kimetsu {
+
+    width: 50%;
+    height: 600px;
+    background-color: black;
+    float: left;
+  }
+
+  .container-logica {
+    width: 50%;
+    height: 600px;
+    background-color: black;
+    float: left;
+  }
+
+  .container-Nezuko {
+    width: 50%;
+    height: 600px;
+    background-color: black;
+    float: left;
+  }
+
+  .cabecalho-Um {
+    padding: 50px;
+  }
+
+  .cabecalho-dois {
+    padding: 50px;
+  }
+
+  .cabecalho-tres {
+    padding: 50px;
+  }
+
+  .cabecalho-quatro {
+    padding: 50px;
+  }
